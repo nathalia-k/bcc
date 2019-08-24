@@ -1,0 +1,11 @@
+entrada = input().split()
+entrada[1] = ''.join(reversed(entrada[1]))
+A = entrada[0]
+B = entrada[1]
+
+if (A==B):
+    print("espelho")
+if (A!=B):
+    print("nao espelho")
+    
+print()
